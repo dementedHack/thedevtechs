@@ -1,0 +1,82 @@
+2019-05-12 02:36:43 GMT+0000 (INFO): Updated redirects table STATUS column type to TINYINT.
+2019-05-12 02:36:43 GMT+0000 (INFO): Updating collation from latin1_swedish_ci to utf8mb4_unicode_ci
+2019-05-12 02:36:43 GMT+0000 (ERROR): ABJ404-SOLUTION Fatal error handler: {"type":1,"message":"Uncaught Error: Call to undefined function mb_eregi_replace() in /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php:146
+Stack trace:
+#0 /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php(500): ABJ_404_Solution_DataAccess-&gt;doTableNameReplacements('select count(id...')
+#1 /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php(1757): ABJ_404_Solution_DataAccess-&gt;getRecordCount(Array)
+#2 /var/www/html/wp-content/plugins/404-solution/includes/WPConnector.php(407): ABJ_404_Solution_DataAccess-&gt;getCapturedCountForNotification()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): ABJ_404_Solution_WordPress_Connector::addMainSettingsPageLink('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook-&gt;apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook-&gt;do_action(Array)
+#6 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#7 /var/www/html/wp-admin/menu.php(308): require_once('/var/www/html/w...')
+#8 /var/ww","file":"/var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php","line":146}, Additional info: (none), mbstring: false, PHP version: 7.2.14, WP ver: 5.1.1, Plugin ver: 2.19.0, Referrer: https://www.thedevtechs.com/wp-admin/plugins.php?plugin_status=all&paged=1&s, Requested URL: /wp-admin/plugins.php?activate=true&plugin_status=all&paged=1&s=, 
+Stored debug messages: 
+, 
+Trace: #0 /var/www/html/wp-content/plugins/404-solution/includes/ErrorHandler.php(105): ABJ_404_Solution_Logging->errorMessage('ABJ404-SOLUTION...')
+#1 [internal function]: ABJ_404_Solution_ErrorHandler::FatalErrorHandler()
+#2 {main}
+2019-05-12 02:36:45 GMT+0000 (ERROR): ABJ404-SOLUTION Fatal error handler: {"type":1,"message":"Uncaught Error: Call to undefined function mb_eregi_replace() in /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php:146
+Stack trace:
+#0 /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php(500): ABJ_404_Solution_DataAccess-&gt;doTableNameReplacements('select count(id...')
+#1 /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php(1757): ABJ_404_Solution_DataAccess-&gt;getRecordCount(Array)
+#2 /var/www/html/wp-content/plugins/404-solution/includes/WPConnector.php(407): ABJ_404_Solution_DataAccess-&gt;getCapturedCountForNotification()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): ABJ_404_Solution_WordPress_Connector::addMainSettingsPageLink('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook-&gt;apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook-&gt;do_action(Array)
+#6 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#7 /var/www/html/wp-admin/menu.php(308): require_once('/var/www/html/w...')
+#8 /var/ww","file":"/var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php","line":146}, Additional info: (none), mbstring: false, PHP version: 7.2.14, WP ver: 5.1.1, Plugin ver: 2.19.0, Referrer: https://www.thedevtechs.com/wp-admin/plugins.php?plugin_status=all&paged=1&s, Requested URL: /wp-admin/plugins.php?activate=true&plugin_status=all&paged=1&s=, 
+Stored debug messages: 
+, 
+Trace: #0 /var/www/html/wp-content/plugins/404-solution/includes/ErrorHandler.php(105): ABJ_404_Solution_Logging->errorMessage('ABJ404-SOLUTION...')
+#1 [internal function]: ABJ_404_Solution_ErrorHandler::FatalErrorHandler()
+#2 {main}
+2019-05-12 02:36:49 GMT+0000 (ERROR): ABJ404-SOLUTION Fatal error handler: {"type":1,"message":"Uncaught Error: Call to undefined function mb_eregi_replace() in /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php:146
+Stack trace:
+#0 /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php(500): ABJ_404_Solution_DataAccess-&gt;doTableNameReplacements('select count(id...')
+#1 /var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php(1757): ABJ_404_Solution_DataAccess-&gt;getRecordCount(Array)
+#2 /var/www/html/wp-content/plugins/404-solution/includes/WPConnector.php(407): ABJ_404_Solution_DataAccess-&gt;getCapturedCountForNotification()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): ABJ_404_Solution_WordPress_Connector::addMainSettingsPageLink('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook-&gt;apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook-&gt;do_action(Array)
+#6 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#7 /var/www/html/wp-admin/menu.php(308): require_once('/var/www/html/w...')
+#8 /var/ww","file":"/var/www/html/wp-content/plugins/404-solution/includes/DataAccess.php","line":146}, Additional info: (none), mbstring: false, PHP version: 7.2.14, WP ver: 5.1.1, Plugin ver: 2.19.0, Referrer: , Requested URL: /wp-admin/, 
+Stored debug messages: 
+, 
+Trace: #0 /var/www/html/wp-content/plugins/404-solution/includes/ErrorHandler.php(105): ABJ_404_Solution_Logging->errorMessage('ABJ404-SOLUTION...')
+#1 [internal function]: ABJ_404_Solution_ErrorHandler::FatalErrorHandler()
+#2 {main}
+2019-05-12 02:40:52 GMT+0000 (ERROR): ABJ404-SOLUTION Fatal error handler: {"type":1,"message":"Uncaught Error: Call to undefined function mb_eregi_replace() in /var/www/html/wp-content/plugins/404-solutionn/includes/DataAccess.php:146
+Stack trace:
+#0 /var/www/html/wp-content/plugins/404-solutionn/includes/DataAccess.php(500): ABJ_404_Solution_DataAccess-&gt;doTableNameReplacements('select count(id...')
+#1 /var/www/html/wp-content/plugins/404-solutionn/includes/DataAccess.php(1757): ABJ_404_Solution_DataAccess-&gt;getRecordCount(Array)
+#2 /var/www/html/wp-content/plugins/404-solutionn/includes/WPConnector.php(407): ABJ_404_Solution_DataAccess-&gt;getCapturedCountForNotification()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): ABJ_404_Solution_WordPress_Connector::addMainSettingsPageLink('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook-&gt;apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook-&gt;do_action(Array)
+#6 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#7 /var/www/html/wp-admin/menu.php(308): require_once('/var/www/html/w...')
+#8 /va","file":"/var/www/html/wp-content/plugins/404-solutionn/includes/DataAccess.php","line":146}, Additional info: (none), mbstring: false, PHP version: 7.2.14, WP ver: 5.1.1, Plugin ver: 2.19.0, Referrer: https://www.thedevtechs.com/wp-admin/plugins.php, Requested URL: /wp-admin/plugins.php?activate=true&plugin_status=all&paged=1&s=, 
+Stored debug messages: 
+, 
+Trace: #0 /var/www/html/wp-content/plugins/404-solutionn/includes/ErrorHandler.php(105): ABJ_404_Solution_Logging->errorMessage('ABJ404-SOLUTION...')
+#1 [internal function]: ABJ_404_Solution_ErrorHandler::FatalErrorHandler()
+#2 {main}
+2019-05-12 02:40:53 GMT+0000 (ERROR): ABJ404-SOLUTION Fatal error handler: {"type":1,"message":"Uncaught Error: Call to undefined function mb_eregi_replace() in /var/www/html/wp-content/plugins/404-solutionn/includes/DataAccess.php:146
+Stack trace:
+#0 /var/www/html/wp-content/plugins/404-solutionn/includes/DataAccess.php(500): ABJ_404_Solution_DataAccess-&gt;doTableNameReplacements('select count(id...')
+#1 /var/www/html/wp-content/plugins/404-solutionn/includes/DataAccess.php(1757): ABJ_404_Solution_DataAccess-&gt;getRecordCount(Array)
+#2 /var/www/html/wp-content/plugins/404-solutionn/includes/WPConnector.php(407): ABJ_404_Solution_DataAccess-&gt;getCapturedCountForNotification()
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): ABJ_404_Solution_WordPress_Connector::addMainSettingsPageLink('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook-&gt;apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook-&gt;do_action(Array)
+#6 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#7 /var/www/html/wp-admin/menu.php(308): require_once('/var/www/html/w...')
+#8 /va","file":"/var/www/html/wp-content/plugins/404-solutionn/includes/DataAccess.php","line":146}, Additional info: (none), mbstring: false, PHP version: 7.2.14, WP ver: 5.1.1, Plugin ver: 2.19.0, Referrer: https://www.thedevtechs.com/wp-admin/plugins.php, Requested URL: /wp-admin/plugins.php?activate=true&plugin_status=all&paged=1&s=, 
+Stored debug messages: 
+, 
+Trace: #0 /var/www/html/wp-content/plugins/404-solutionn/includes/ErrorHandler.php(105): ABJ_404_Solution_Logging->errorMessage('ABJ404-SOLUTION...')
+#1 [internal function]: ABJ_404_Solution_ErrorHandler::FatalErrorHandler()
+#2 {main}
